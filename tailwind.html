@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PREDA Gist Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!--header section-->
+    <header class="bg-red-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold"> PREDA Blog</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-gray-500">Home</a></li>
+                    <li><a href="#" class="hover:text-gray-500">About</a></li>
+                    <li><a href="#" class="hover:text-gray-500">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--featured post section-->
+     <section class="container mx-auto my-8">
+        <h2 class="text-2xl font-bold mb-4">Featured Posts</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white p-4 rounded shadow">
+                <img src="images/nysc.jpg" alt="News1" class="rounded mb-4">
+                <h3 class="text-xl font-semibold mb-2">UPDATE ON NYSC CALL-UP LETTER</h3>
+                <p class="text-gray-600">Any person who fails to report for service in the service corps as directed in the Call-up Letter and/or refuses to make himself available for service in the service corps shall be prosecuted in line with the provisions of Section 13 sub-section 19(a)and (b) of the NYSC Act, Cap. N84, Laws of the Federation of Nigeria, 2004
+
+                    Also, any person who is not eligible to participate in the service corps or has been duly issued with a Certificate of National Service or Certificate of Exemption but so participates or attempts to so participate shall be prosecuted in line with Section 13 sub-section 2(a) and (b) of the NYSC Act, Cap, N84, Laws of the Federation of Nigeria, 2004</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <img src="images/chivido24.jpg" alt="News2" class="rounded mb-4">
+                <h3 class="text-xl font-semibold mb-2">"CHIVIDO24"</h3>
+                <p class="text-gray-600">Davido Releases Pre-Wedding Photos. David Adeleke, popularly known as Davido, has shared pre-wedding photos with his partner, Chioma Rowland, ahead of their wedding on Tuesday. The Afrobeats star shared the pictures on his Instagram account with the hashtag #CHIVIDO2024. According to reports, Chioma and Davido’s traditional wedding is scheduled to take place in Lagos on June 25, 2024.</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <img src="images/flood.jpeg" alt="News3" class="rounded mb-4">
+                <h3 class="text-xl font-semibold mb-2">Flooding:Nigeria Issues Flood Warning for 15 States Amid Heavy Rainfall Forecast</h3>
+                <p class="text-gray-600">The federal government has issued a flood alert in 15 states across the country.
+
+                    That was as the Lagos State government, on Sunday, said it remained resolute in its quest to make the state and the metropolis flood free.
+                    
+                    The National Flood Early Warning System (FEWS) centre of the Federal Ministry of Environment, Abuja, in the alert stated that the listed locations and their environs were likely to witness heavy rainfall that might lead to flood within the period of prediction: June 21 – 25, 2024.
+                    
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Section -->
+    <section class="container mx-auto my-8">
+        <h2 class="text-2xl font-bold mb-4">Categories</h2>
+        <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-200 text-blue-800 py-1 px-3 rounded-full text-sm">Politics</span>
+            <span class="bg-green-200 text-green-800 py-1 px-3 rounded-full text-sm">Health</span>
+            <span class="bg-red-200 text-red-800 py-1 px-3 rounded-full text-sm">Entertainment</span>
+            <span class="bg-yellow-200 text-yellow-800 py-1 px-3 rounded-full text-sm">Lifestyle</span>
+            <span class="bg-purple-200 text-purple-800 py-1 px-3 rounded-full text-sm">Environment</span>
+        </div>
+    </section>
+
+    <!-- Recent Posts Section -->
+    <section class="container mx-auto my-8">
+        <h2 class="text-2xl font-bold mb-4">Recent Posts</h2>
+        <ul>
+            <li class="mb-2">
+                <a href="#" class="text-xl font-semibold text-red-800">Recent Post: NYSC</a>
+                <p class="text-gray-500 text-m">Published on June 25, 2024</p>
+            </li>
+            <li class="mb-2">
+                <a href="#" class="text-xl font-semibold text-red-800">Recent Post: Entertainment</a>
+                <p class="text-gray-500 text-m">Published on June 24, 2024</p>
+            </li>
+            <li class="mb-2">
+                <a href="#" class="text-xl font-semibold text-red-800">Recent Post: Flooding</a>
+                <p class="text-gray-500 text-m">Published on June 26, 2024</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Newsletter Subscription Form -->
+    <section class="container mx-auto my-8 bg-red-100 p-6 rounded">
+        <h2 class="text-2xl font-bold mb-4">Subscribe to our Blog page</h2>
+        <form class="flex flex-col md:flex-row gap-4">
+            <input type="email" placeholder="Enter your email" class="p-2 rounded border border-gray-300 flex-grow">
+            <button type="submit" class="bg-blue-800 text-white py-2 px-4 rounded">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-red-800 text-white p-4 mt-8">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <p class="mb-2 md:mb-0">&copy; 2024 My Blog. All rights reserved.</p>
+            <div class="flex space-x-4">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+  
+</body>
+</html>
